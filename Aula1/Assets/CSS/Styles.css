@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    height: 6em;
+    background-color: black;
+    align-content: center;
+}
+
+.cabecalho p {
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-content: center;
+}
+
+.cabecalho a {
+    padding: 1em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    font-size: 2em;
+    align-content: center;
+
+
+}
+
+.cabecalho ul {
+    display: flex;
+    justify-content: end;
+
+}
+
+.SobreMim h2 {
+    margin: 0 4em 1em;
+    text-align: center;
+    font-size: 3em;
+    line-height: 1.5;
+    clear: left;
+}
+.SobreMim h3{
+    margin: 0 4em 1em;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.5;
+    clear: left;
+}
