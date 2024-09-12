@@ -5,11 +5,15 @@ header {
     align-content: center;
 }
 
-.cabecalho p {
-    color: white;
+#Inicio h2 {
     display: flex;
-    justify-content: start;
-    align-content: center;
+    clear: left;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 2em;
+    
+
 }
 
 .cabecalho a {
@@ -17,29 +21,42 @@ header {
     color: rgb(255, 255, 255);
     text-decoration: none;
     display: flex;
-    font-size: 2em;
-    align-content: center;
+    font-size: 1em;
+
 
 
 }
 
 .cabecalho ul {
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    font-size: 1em;
+    align-items: center;
 
 }
 
-.SobreMim h2 {
+.cabecalhoNome {
+    margin: 1em 3em 1em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#sobremim h2 {
+    display: flex;
     margin: 0 4em 1em;
-    text-align: center;
-    font-size: 3em;
+    justify-content: center;
+    font-size: 2em;
     line-height: 1.5;
     clear: left;
 }
-.SobreMim h3{
+
+#sobremim h3 {
     margin: 0 4em 1em;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.4em;
     line-height: 1.5;
     clear: left;
 }
