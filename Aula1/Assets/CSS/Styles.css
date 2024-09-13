@@ -5,16 +5,22 @@ header {
     align-content: center;
 }
 
-#Inicio h2 {
-    display: flex;
-    clear: left;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    padding: 2em;
-    
-
+body {
+    background: linear-gradient(#FEFEFE, #888888)
 }
+
+#Inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+    padding: 0.1em;
+    margin: 8em auto 5em auto;
+    line-height: 2;
+    font-size: 1.8em;
+}
+
 
 .cabecalho a {
     padding: 1em;
@@ -22,8 +28,6 @@ header {
     text-decoration: none;
     display: flex;
     font-size: 1em;
-
-
 
 }
 
@@ -46,7 +50,9 @@ header {
 
 #sobremim h2 {
     display: flex;
-    margin: 0 4em 1em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-bottom: 2em;
     justify-content: center;
     font-size: 2em;
     line-height: 1.5;
@@ -54,9 +60,84 @@ header {
 }
 
 #sobremim h3 {
-    margin: 0 4em 1em;
+    margin: auto;
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 1.4em;
     line-height: 1.5;
+    width: 60%;
     clear: left;
+}
+
+#carreira h2 {
+    display: flex;
+    font-size: 2em;
+    margin: 4em auto 1.8em auto;
+    justify-content: center;
+}
+
+.sobretrabalho {
+    padding: auto;
+    display: flex;
+    font-size: 1.5em;
+    justify-content: center;
+    margin: 2em auto 2em auto;
+    width: 60%;
+    clear: left;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.sobretrabalho a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+.sobretrabalho a:hover {
+    transition: 1s;
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+footer p {
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1.5em;
+    width: 60%;
+    margin: 6em auto;
+}
+
+.informaçõesContato {
+    display: flex;
+    margin: 1em auto 1em auto;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
 }
