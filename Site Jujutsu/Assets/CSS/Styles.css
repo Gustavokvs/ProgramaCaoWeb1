@@ -1,0 +1,33 @@
+.Links {
+    background-image: url(/Assets/Img/Logo.jpeg);
+    background-size: cover ;
+    justify-content: start;
+    background-position: 100px center;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 10em;
+    text-transform: uppercase;
+}
+
+.Links li {
+
+    display: inline-block;
+    margin: auto 0.8em auto 0em;
+    justify-content: space-between;
+
+}
+
+.Links ul {
+    display: flex;
+    margin: auto 68em auto;
+    flex-direction: row;
+
+}
+
+.Links a {
+    text-decoration: none;
+    margin: 0em -0.390em 0em 0em;
+    font-size: 1.0550em;
+    color: gold;
+
+}
