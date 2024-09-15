@@ -1,33 +1,269 @@
-.Links {
-    background-image: url(/Assets/Img/Logo.jpeg);
-    background-size: cover ;
-    justify-content: start;
-    background-position: 100px center;
-    background-repeat: no-repeat;
+.cabecalho {
     display: flex;
-    height: 10em;
-    text-transform: uppercase;
-}
-
-.Links li {
-
-    display: inline-block;
-    margin: auto 0.8em auto 0em;
+    background-color: crimson;
+    height: 4em;
     justify-content: space-between;
-
-}
-
-.Links ul {
-    display: flex;
-    margin: auto 68em auto;
-    flex-direction: row;
-
-}
-
-.Links a {
+    text-transform: uppercase;
     text-decoration: none;
-    margin: 0em -0.390em 0em 0em;
-    font-size: 1.0550em;
+}
+
+.frase {
+    padding: 1em;
+    display: flex;
+    max-width: 10em;
+    overflow-wrap: break-word;
+    align-items: center;
+    color: gold;
+    justify-content: flex-start;
+
+}
+
+.cabecalho ul {
+    display: flex;
+    margin-right: 1em;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cabecalho li {
+    display: flex;
+    text-decoration: none;
+    margin: 0.5em;
+    align-items: center;
+
+}
+
+.cabecalho a {
+    text-decoration: none;
     color: gold;
 
+}
+
+#Início {
+    padding: 2em;
+    margin-top: 6em;
+    /* Espaçamento acima da seção */
+    text-align: center;
+    /* Alinha o texto ao centro */
+    max-width: 50%;
+    /* Define a largura máxima da seção */
+    margin-left: auto;
+    /* Centraliza horizontalmente */
+    margin-right: auto;
+    /* Centraliza horizontalmente */
+}
+
+#Início h1 {
+    overflow-wrap: break-word;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+#Início h2 {
+    margin-top: 2em;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.Spoiler {
+    font-weight: bold;
+}
+
+#História {
+    padding: 2em;
+    margin-top: 3em;
+    /* Espaçamento acima da seção */
+    text-align: center;
+    /* Alinha o texto ao centro */
+    max-width: 68%;
+    /* Define a largura máxima da seção */
+    margin-left: auto;
+    /* Centraliza horizontalmente */
+    margin-right: auto;
+    /* Centraliza horizontalmente */
+}
+
+#História h2 {
+    font-size: 1.4em;
+}
+
+.maldicoes {
+    font-weight: bold;
+}
+
+.energia {
+    font-weight: bold;
+}
+
+.feiticeiros {
+    font-weight: bold;
+}
+
+.sukuna {
+    font-weight: bold;
+}
+
+#Personagens {
+    padding: 2em;
+    margin-top: 3em;
+    /* Espaçamento acima da seção */
+    text-align: center;
+    /* Alinha o texto ao centro */
+    max-width: 68%;
+    /* Define a largura máxima da seção */
+    margin-left: auto;
+    /* Centraliza horizontalmente */
+    margin-right: auto;
+    /* Centraliza horizontalmente */
+
+}
+
+#Personagens h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+    font-size: 2em;
+}
+
+#Personagens li {
+    display: flex;
+    justify-content: space-between;
+    /* Nome no início e imagem no centro */
+    align-items: center;
+    font-size: 2em;
+    margin: 1em 0;
+    /* Espaço entre os itens */
+}
+
+#Personagens img{
+    width: 7em;
+    height: 7em;
+}
+
+
+
+.Img-container {
+    display: flex;
+    justify-content: center; /* Alinha a imagem no centro */
+    width: 100px; /* Defina o tamanho apropriado para a imagem */
+}
+
+/* Estilos gerais já existentes */
+
+/* Ajustes para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+    .cabecalho {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 1em;
+    }
+
+    /* Alinhar a frase à esquerda */
+    .frase {
+        max-width: 100%;
+        text-align: left; /* Mantém a frase alinhada à esquerda */
+    }
+
+    .cabecalho ul {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .cabecalho li {
+        margin: 0.5em 0;
+    }
+
+    #Início {
+        max-width: 90%;
+        margin-top: 2em;
+        padding: 1em;
+    }
+
+    #Início h1 {
+        font-size: 1.2em;
+    }
+
+    #Início h2 {
+        font-size: 1em;
+    }
+
+    #História {
+        max-width: 90%;
+        padding: 1em;
+    }
+
+    #História h2 {
+        font-size: 1.2em;
+    }
+
+    #Personagens {
+        max-width: 90%;
+        padding: 1em;
+    }
+
+    #Personagens h2 {
+        font-size: 1.5em;
+        margin-bottom: 2em;
+    }
+
+    #Personagens li {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 1.5em;
+    }
+
+    #Personagens img {
+        width: 5em;
+        height: 5em;
+    }
+
+    .Img-container {
+        width: 80px;
+    }
+}
+
+/* Ajustes para telas muito pequenas (ex: smartphones menores) */
+@media (max-width: 370px) {
+    .cabecalho {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .frase {
+        max-width: 100%;
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    .cabecalho ul {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .cabecalho li {
+        margin: 0.3em 0;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    #Início, #História, #Personagens {
+        max-width: 100%;
+        padding: 1em;
+    }
+
+    #Personagens li {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #Personagens img {
+        width: 5em;
+        height: 5em;
+    }
 }
