@@ -1,0 +1,19 @@
+function bhaskara(a, b, c) {
+
+    let d = (b * b - 4 * a * c);
+    if (d < 0) {
+        console.log("Delta: " + d + " É NEGATIVO");
+    }
+    else {
+        console.log("Delta: " + d)
+
+        let b1, b2;
+
+        b1 = (-b + Math.sqrt(d)) / 2 * a
+        b2 = (-b - Math.sqrt(d)) / 2 * a
+        console.log("X1 = " + b1);
+        console.log("X2 = " + b2);
+    }
+}
+bhaskara(1, 7, 2)
+

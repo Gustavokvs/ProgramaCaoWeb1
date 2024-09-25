@@ -1,0 +1,20 @@
+function bhaskara(a, b, c) {
+
+    let d = (b * b - 4 * a * c);
+    if (d < 0) {
+        
+    
+        
+    }
+    else {
+
+
+        let b1, b2;
+
+        b1 = (-b + Math.sqrt(d)) / 2 * a
+        b2 = (-b - Math.sqrt(d)) / 2 * a
+
+    }
+}
+bhaskara(1, 7, 2)
+
