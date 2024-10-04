@@ -63,8 +63,11 @@ header {
     width: 60%;
 }
 
-Sobre h2 {
+#Sobre h2 {
+    padding-top: 4em;
     display: flex;
+    font-size: 3em;
+    justify-content: center;
 }
 
 #Sobre h3 {
@@ -74,4 +77,35 @@ Sobre h2 {
     padding-top: 4em;
     font-size: 2em;
     width: 70%;
+}
+
+#Carreira h2 {
+    padding-top: 3.5em;
+    font-size: 3em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#trabalho {
+    display: flex;
+    padding-top: 4em;
+    font-size: 2em;
+    text-align: center;
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+
+}
+
+#trabalho a {
+    text-decoration: underline;
+    color: black;
+}
+
+#trabalho a:hover {
+    transition: 1s;
+    font-size: 1.08em;
+    color: darkslategray;
 }
