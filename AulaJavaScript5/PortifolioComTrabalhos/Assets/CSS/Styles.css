@@ -109,3 +109,63 @@ header {
     font-size: 1.08em;
     color: darkslategray;
 }
+
+#Projetos h2 {
+    padding-top: 3.5em;
+    font-size: 3em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#projetosTodos {
+    display: flex;
+    padding-top: 3em;
+    font-size: 2em;
+    text-align: center;
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+}
+
+#linksProjetos h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#linksProjetos ul {
+    padding-top: 7em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4em;
+}
+
+#linksProjetos a {
+    font-size: 2em;
+    padding-left: 2.6em;
+    text-decoration: underline;
+    color: black;
+}
+
+#Contato h3 {
+    padding-top: 3.5em;
+    font-size: 3em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+footer p {
+    color: white;
+}
